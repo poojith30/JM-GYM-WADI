@@ -30,37 +30,37 @@ interface GymPhoto {
 const PHOTOS: GymPhoto[] = [
   {
     id: 1,
-    src: '/gym/photo-1.jpg',
+    src: `${import.meta.env.BASE_URL}gym/photo-1.jpg`,
     title: 'Biomechanical Lineage Machines',
     category: 'Hypertrophy Floor',
   },
   {
     id: 2,
-    src: '/gym/photo-2.jpg',
+    src: `${import.meta.env.BASE_URL}gym/photo-2.jpg`,
     title: 'Heavy Strength & Dumbbells',
     category: 'Free Weight Zone',
   },
   {
     id: 3,
-    src: '/gym/photo-3.jpg',
+    src: `${import.meta.env.BASE_URL}gym/photo-3.jpg`,
     title: 'Olympic Lifting & Deadlift Stations',
     category: 'Power Rack Complex',
   },
   {
     id: 4,
-    src: '/gym/photo-4.jpg',
+    src: `${import.meta.env.BASE_URL}gym/photo-4.jpg`,
     title: 'Multi-Cable & Functional Towers',
     category: 'Conditioning Rig',
   },
   {
     id: 5,
-    src: '/gym/photo-5.jpg',
+    src: `${import.meta.env.BASE_URL}gym/photo-5.jpg`,
     title: 'Premium Cardio & Endurance Deck',
     category: 'Stamina Arena',
   },
   {
     id: 6,
-    src: '/gym/photo-6.jpg',
+    src: `${import.meta.env.BASE_URL}gym/photo-6.jpg`,
     title: 'Dedicated Unisex Training Atmosphere',
     category: 'Wadi Main Floor',
   },
